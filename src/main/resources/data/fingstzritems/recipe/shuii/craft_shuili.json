@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    { "tag": "c:foods/raw_meat" },
+    { "tag": "c:buckets/water" }
+  ],
+  "result": {
+    "id": "fingstzritems:shuili"
+  }
+}
