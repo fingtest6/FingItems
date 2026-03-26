@@ -60,14 +60,13 @@ public class fingstzritems {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
 
-        if (Config.logDirtBlock) LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == STCreativeModeTab.ST_TAB) {
+            event.accept(items.SHUILI);
+            event.accept(items.COOKED_SHUILI);
+        }
     }
 
 

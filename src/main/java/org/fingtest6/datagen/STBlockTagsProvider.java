@@ -1,5 +1,5 @@
 package org.fingtest6.datagen;
-
+/*
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
@@ -20,3 +20,4 @@ public class STBlockTagsProvider extends BlockTagsProvider {
 
     }
 }
+*/

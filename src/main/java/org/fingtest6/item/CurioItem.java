@@ -1,5 +1,5 @@
 package org.fingtest6.item;
-
+/*
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -31,3 +31,4 @@ public class CurioItem extends Item implements ICurioItem {
         }
     }
 }
+*/

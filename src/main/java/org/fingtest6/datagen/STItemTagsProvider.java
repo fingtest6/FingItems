@@ -1,5 +1,5 @@
 package org.fingtest6.datagen;
-
+/*
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -27,3 +27,4 @@ public class STItemTagsProvider extends ItemTagsProvider {
                 .add(items.SHUILI.get());
     }
 }
+*/

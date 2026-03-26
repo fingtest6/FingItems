@@ -1,5 +1,5 @@
 package org.fingtest6;
-
+/*
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -33,3 +33,4 @@ public class STDataGenerator{
         generator.addProvider(event.includeServer(),new STItemTagsProvider(packOutput, lookupProvider,blockTagsProvider.contentsGetter(), existingFileHelper ));
     }
 }
+*/
