@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1.14,
+  "ingredient": "fingstzritems:shuili",
+  "result": {
+    "id": "fingstzritems:cooked_shuili"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 5.14,
+  "ingredient": "fingstzritems:shuili",
+  "result": {
+    "id": "fingstzritems:cooked_shuili"
+  }
+}

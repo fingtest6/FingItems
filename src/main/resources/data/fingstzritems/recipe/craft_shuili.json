@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:foods/raw_meat" ,
+    "#c:buckets/water"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fingstzritems:shuili"
+  }
+}
