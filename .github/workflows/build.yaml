@@ -1,0 +1,38 @@
+name: Build Minecraft Mod
+
+on:
+  push:
+    branches: [ "26.1dev", "1.21.1dev" ]
+  pull_request:
+    branches: [ "26.1dev", "1.21.1dev" ]
+  
+ 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v3
+
+      - name: Make Gradle Wrapper Executable
+        run: chmod +x ./gradlew
+
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mod-Build-Artifacts
+          path: build/libs/*.jar
+          retention-days: 30
